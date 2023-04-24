@@ -34,10 +34,9 @@ getMovieBtn.addEventListener("click", () => {
         } votes)</p>
         <p>Original Language: ${movieData.original_language}</p>
         <p>Revenue: ${movieData.revenue} USD</p>
-        <p>Budget: ${movieData.budget} USD</p>` +
-        //const GenLength = ${movieData.revenue};
+        <p>Budget: ${movieData.budget} USD</p>
 
-         ` ${
+          ${
             trailer
               ? `<p><a href="https://www.youtube.com/watch?v=${trailer.key}">Watch Trailer</a></p>`
               : ""
